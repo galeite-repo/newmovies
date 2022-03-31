@@ -49,6 +49,10 @@
   width: 100%;
 
 }
+.date {
+  color: #2ae419;
+  font-size: .7em;
+}
 
 .moviesCointainer span{
   position: absolute;
@@ -61,6 +65,7 @@
   border-radius:  0px 10px 0px 10px;
   color: #fff;
 }
+
 
 .paginationContainer {
   display: flex;

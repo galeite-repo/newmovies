@@ -85,7 +85,7 @@ const Home = ({ list, page, total_pages, searchParam }: IPropsComponent) => {
         <div className={styles.moviesCointainer}>
           {data.map((item: any, index: number) => (
             <div key={index}>
-              <Movie title={item.title} url={item.poster_path} note={item.vote_average} />
+              <Movie title={item.title} url={item.poster_path} note={item.vote_average}  date={item.release_date}/>
             </div>
           ))}
         </div>
