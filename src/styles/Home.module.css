@@ -1,0 +1,70 @@
+.container {
+  padding: 0 2rem;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+
+
+.titleContainer {
+  display: flex;
+  color: #0EE7B7;
+  width: 100%;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+
+.titleContainer h1 {
+  font-size: 30px;
+}
+
+.moviesCointainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.moviesCointainer div{
+  margin-bottom: 15px;
+  position: relative;
+}
+.moviesCointainer img {
+  width: 350px;
+  height: 450px;
+  border-radius: 10px;
+}
+.moviesCointainer h2 {
+  color: #7AC7E3;
+  display: block;
+  margin-top: 5px;
+  font-size: .8em;
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+  padding: 10px;
+  background-color: rgba(0,0,0,.7);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100%;
+
+}
+
+.moviesCointainer span{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #7669fe;
+  padding: 5px;
+  width: 2rem;
+  text-align: center;
+  border-radius:  0px 10px 0px 10px;
+  color: #fff;
+}
+
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  }
+
